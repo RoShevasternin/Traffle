@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Pink Cube Master</string>
+
+    <string-array name="blues">
+        <item>Dance Battle!</item>
+        <item>Funny Face Challenge</item>
+        <item>Animal Imitation</item>
+        <item>Group Hug!</item>
+        <item>Secret Talent</item>
+        <item>Tongue Twister</item>
+        <item>Compliment Round</item>
+        <item>Truth or Dare</item>
+        <item>Balloon Pop</item>
+        <item>Freeze Dance</item>
+        <item>Sing a Song</item>
+        <item>Act It Out</item>
+        <item>Silly Walk</item>
+        <item>Favorite Memory</item>
+        <item>Charades</item>
+        <item>Simon Says</item>
+        <item>Share a Joke</item>
+        <item>Whistle a Tune</item>
+        <item>Impersonate a Player</item>
+        <item>Draw with Your Eyes Closed</item>
+    </string-array>
+
+    <string-array name="pinks">
+        <item>Play some fun music and have a 30-second dance battle with any player. The other participants choose the winner.</item>
+        <item>Make the funniest face you can. The other players rate it from 1 to 10!</item>
+        <item>Imitate an animal of your choice for 15 seconds. The first player to guess the animal wins.</item>
+        <item>Everyone has to give each other a big group hug. Enjoy the moment!</item>
+        <item>Show off a hidden talent or special skill for 30 seconds. Impress the others!</item>
+        <item>Say this tongue twister five times fast: "She sells seashells by the seashore." Mess up? Try again!</item>
+        <item>Give a genuine compliment to every player at the table.</item>
+        <item>Choose any player and ask them to pick between truth or dare. They must answer or complete the dare.</item>
+        <item>Pretend to blow up a balloon and then pop it in the most dramatic way you can!</item>
+        <item>Start dancing and when someone shouts "freeze," stop immediately! Last one to freeze is out.</item>
+        <item>Sing the chorus of your favorite song. Bonus points if the others sing along!</item>
+        <item>Choose a movie or TV show and act it out silently. First one to guess it gets a point.</item>
+        <item>Walk across the room using the silliest walk you can think of. Make everyone laugh!</item>
+        <item>Share a favorite family memory with everyone at the table.</item>
+        <item>Act out a famous character or profession, and others must guess who or what you are!</item>
+        <item>Play a quick round of Simon Says with one player as Simon. Follow instructions carefully!</item>
+        <item>Tell your funniest joke. Can you make everyone laugh?</item>
+        <item>Whistle a tune for 20 seconds, and others have to guess the song.</item>
+        <item>Pick a player and do your best impersonation of them. See if they can guess it’s them!</item>
+        <item>Close your eyes and draw a picture in 20 seconds. The others must guess what it is!</item>
+    </string-array>
+</resources>

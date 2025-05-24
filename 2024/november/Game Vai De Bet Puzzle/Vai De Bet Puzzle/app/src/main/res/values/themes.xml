@@ -1,0 +1,11 @@
+<resources>
+    <style name="Base.Theme.VaiDeBetPuzzle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@drawable/background</item>
+
+        <item name="android:statusBarColor">@color/top</item>
+        <item name="android:navigationBarColor">@color/bottom</item>
+    </style>
+
+    <style name="Theme.VaiDeBetPuzzle" parent="Base.Theme.VaiDeBetPuzzle"/>
+</resources>

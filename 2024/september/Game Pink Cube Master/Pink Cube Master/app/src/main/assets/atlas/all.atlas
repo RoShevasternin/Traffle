@@ -1,0 +1,14 @@
+all.png
+size: 204, 204
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+panel
+  rotate: false
+  xy: 2, 2
+  size: 200, 200
+  split: 51, 56, 50, 52
+  pad: -1, -1, -1, -1
+  orig: 200, 200
+  offset: 0, 0
+  index: -1

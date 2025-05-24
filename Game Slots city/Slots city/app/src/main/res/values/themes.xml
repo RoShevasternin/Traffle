@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SlotsCity" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/slots</item>
+        <item name="android:navigationBarColor">@color/slots</item>
+    </style>
+
+    <style name="Theme.SlotsCity" parent="Base.Theme.SlotsCity" />
+</resources>

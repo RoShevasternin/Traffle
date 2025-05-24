@@ -1,0 +1,26 @@
+all.png
+size: 220, 490
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 2, 2
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+spin_def
+  rotate: false
+  xy: 2, 220
+  size: 146, 133
+  orig: 146, 133
+  offset: 0, 0
+  index: -1
+spin_dis
+  rotate: false
+  xy: 2, 355
+  size: 146, 133
+  orig: 146, 133
+  offset: 0, 0
+  index: -1

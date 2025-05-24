@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Cards Table</string>
+
+    <string-array name="names">
+        <item>Shield</item>
+        <item>Meat</item>
+        <item>Broth</item>
+        <item>Chest</item>
+        <item>Sword</item>
+        <item>Gold bag</item>
+        <item>Map</item>
+        <item>Green Book</item>
+        <item>blue book</item>
+        <item>Book of sight</item>
+        <item>book of Dragon</item>
+        <item>Gentle potion</item>
+        <item>poisonous potion</item>
+        <item>love potion</item>
+        <item>Potion of power</item>
+        <item>magic potion</item>
+        <item>gun</item>
+        <item>coins</item>
+        <item>machete</item>
+        <item>beer</item>
+        <item>treasure map</item>
+        <item>strange potion</item>
+        <item>pistole</item>
+    </string-array>
+</resources>

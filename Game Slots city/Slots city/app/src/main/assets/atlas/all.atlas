@@ -1,0 +1,257 @@
+all.png
+size: 1879, 833
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+credit
+  rotate: false
+  xy: 1556, 167
+  size: 69, 55
+  orig: 69, 55
+  offset: 0, 0
+  index: -1
+double_shans
+  rotate: false
+  xy: 973, 525
+  size: 263, 306
+  orig: 263, 306
+  offset: 0, 0
+  index: -1
+gates_of_olimpus
+  rotate: false
+  xy: 1428, 229
+  size: 250, 129
+  orig: 250, 129
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 206, 525
+  size: 237, 182
+  orig: 237, 182
+  offset: 0, 0
+  index: -1
+info_deff
+  rotate: false
+  xy: 370, 229
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+info_press
+  rotate: false
+  xy: 435, 229
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+menu_def
+  rotate: false
+  xy: 884, 229
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+menu_press
+  rotate: false
+  xy: 981, 229
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+minus_dis
+  rotate: false
+  xy: 500, 229
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+minus_press
+  rotate: false
+  xy: 596, 229
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+off
+  rotate: false
+  xy: 282, 2
+  size: 105, 37
+  orig: 105, 37
+  offset: 0, 0
+  index: -1
+on
+  rotate: false
+  xy: 389, 2
+  size: 105, 37
+  orig: 105, 37
+  offset: 0, 0
+  index: -1
+pipka_green
+  rotate: false
+  xy: 256, 2
+  size: 11, 19
+  orig: 11, 19
+  offset: 0, 0
+  index: -1
+pipka_red
+  rotate: false
+  xy: 269, 2
+  size: 11, 19
+  orig: 11, 19
+  offset: 0, 0
+  index: -1
+play_deff
+  rotate: false
+  xy: 2, 360
+  size: 777, 138
+  orig: 777, 138
+  offset: 0, 0
+  index: -1
+play_press
+  rotate: false
+  xy: 781, 360
+  size: 777, 138
+  orig: 777, 138
+  offset: 0, 0
+  index: -1
+plus_def
+  rotate: false
+  xy: 692, 229
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+plus_press
+  rotate: false
+  xy: 788, 229
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+slot_city_logo
+  rotate: false
+  xy: 1078, 229
+  size: 348, 100
+  orig: 348, 100
+  offset: 0, 0
+  index: -1
+spin_btn_deff
+  rotate: false
+  xy: 445, 525
+  size: 262, 254
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+spin_btn_press
+  rotate: false
+  xy: 709, 525
+  size: 262, 254
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+spin_def
+  rotate: false
+  xy: 1560, 360
+  size: 202, 163
+  orig: 202, 163
+  offset: 0, 0
+  index: -1
+spin_press
+  rotate: false
+  xy: 2, 525
+  size: 202, 163
+  orig: 202, 163
+  offset: 0, 0
+  index: -1
+text-1
+  rotate: false
+  xy: 496, 2
+  size: 1381, 53
+  orig: 1381, 53
+  offset: 0, 0
+  index: -1
+text-2
+  rotate: false
+  xy: 2, 57
+  size: 1381, 53
+  orig: 1381, 53
+  offset: 0, 0
+  index: -1
+text-3
+  rotate: false
+  xy: 2, 112
+  size: 1381, 53
+  orig: 1381, 53
+  offset: 0, 0
+  index: -1
+text-4
+  rotate: false
+  xy: 2, 167
+  size: 1381, 53
+  orig: 1381, 53
+  offset: 0, 0
+  index: -1
+user_icon
+  rotate: false
+  xy: 1684, 167
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+v_off
+  rotate: false
+  xy: 1746, 167
+  size: 62, 60
+  orig: 62, 60
+  offset: 0, 0
+  index: -1
+v_on
+  rotate: false
+  xy: 1810, 167
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+volume-1
+  rotate: false
+  xy: 1627, 167
+  size: 55, 55
+  orig: 55, 55
+  offset: 0, 0
+  index: -1
+volume-2
+  rotate: false
+  xy: 1385, 167
+  size: 55, 54
+  orig: 55, 54
+  offset: 0, 0
+  index: -1
+volume-3
+  rotate: false
+  xy: 1442, 167
+  size: 55, 54
+  orig: 55, 54
+  offset: 0, 0
+  index: -1
+volume-4
+  rotate: false
+  xy: 1499, 167
+  size: 55, 54
+  orig: 55, 54
+  offset: 0, 0
+  index: -1
+volume_background
+  rotate: false
+  xy: 2, 229
+  size: 366, 60
+  orig: 366, 60
+  offset: 0, 0
+  index: -1
+volume_progress
+  rotate: false
+  xy: 2, 2
+  size: 252, 7
+  orig: 252, 7
+  offset: 0, 0
+  index: -1

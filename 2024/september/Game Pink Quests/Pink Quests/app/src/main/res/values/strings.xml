@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">Pink Quests</string>
+
+    <string-array name="char_names">
+        <item>Lianissa Moonlight</item>
+        <item>Arandel Shadowchant</item>
+        <item>Mirael Fire Song</item>
+        <item>Felarisse Forestheart</item>
+        <item>Keldrick Zoremech</item>
+        <item>Iria Morosklyn</item>
+        <item>Silvara Windbreaker</item>
+        <item>Rendar Horizonolam</item>
+        <item>Aliana the Herbalist</item>
+        <item>Zorax the Nightwalker</item>
+        <item>Fionella Moonflower</item>
+        <item>Dreigos Twilight Blade</item>
+    </string-array>
+
+    <string-array name="char_descs">
+        <item>Lianissa Moonlight is an elven sorceress, a master of lunar magic who can control the tides and scatter
+            the glow of the stars for healing.
+        </item>
+        <item>Arandel Shadowchant is a dark wizard who can summon shadows and turn them into terrifying ghosts to
+            protect her kingdom from enemies.
+        </item>
+        <item>Mirael Fire Song is an enchantress with fire magic that can create protective barriers of flame or turn
+            into living fire.
+        </item>
+        <item>Felarisse Forestheart is a half-human half-entity, the master of ancient forest magic. She can bring trees
+            to life and talk to nature, protecting it from destruction.
+        </item>
+        <item>Keldrick Zoremech is a master of light magic, able to create swords of pure light that can cut through
+            even darkness.
+        </item>
+        <item>Iria Morosklyn is a mermaid who controls the depths of the sea and cold currents, able to create an ice
+            barrier and cause storms.
+        </item>
+        <item>Silvara Windbreaker is a wind lord who can move at incredible speed and control the elements of the air
+            for attack or defence.
+        </item>
+        <item>Rendar Horizonolam is a powerful barbarian with the magic of the mountains. He can control the earth and
+            cause earthquakes.
+        </item>
+        <item>Aliana the Herbalist is a green sorceress with healing plant magic. She is able to revive dried plants and
+            cure any disease with the help of herbs.
+        </item>
+        <item>Zorax the Nightwalker is a master of illusion and a sorcerer of the night who uses the starry sky to
+            create deceptive images and mislead his enemies.
+        </item>
+        <item>Fionella Moonflower is a fairy who controls the magic of light and fog. She can create magical gardens
+            that protect against evil forces.
+        </item>
+        <item>Dreigos Twilight Blade - a dragon-man with dark magic and the power of dragons, capable of releasing fiery
+            lightning and controlling shadows.
+        </item>
+    </string-array>
+
+    <string-array name="subject_descs">
+        <item>intelligence</item>
+        <item>speed</item>
+        <item>agility</item>
+        <item>strength</item>
+        <item>luck</item>
+        <item>magic</item>
+        <item>stealth</item>
+        <item>courage</item>
+        <item>wisdom</item>
+        <item>healing</item>
+    </string-array>
+
+    <string-array name="subject_names">
+        <item>Amulet of the Moon\'s Heart</item>
+        <item>Grimoire of Shadowed Secrets</item>
+        <item>Crystal of the Abyss</item>
+        <item>andle of Forgotten Souls</item>
+        <item>eather of Dragonfire</item>
+        <item>irror of Phantom Reflections</item>
+        <item>tone of Eternal Night</item>
+        <item>ing of the Star Spark</item>
+        <item>halice of Life’s Essence</item>
+        <item>Wand of the Whirling Winds</item>
+        <item>Mask of a Thousand Faces</item>
+        <item>Key of the Temporal Doors</item>
+        <item>Cloak of Misty Dreams</item>
+        <item>Ring of the Deep Seas</item>
+        <item>Orb of Clear Fate</item>
+        <item>Scroll of Forbidden Spells</item>
+        <item>Crown of Forest Spirits</item>
+        <item>Goblet of Lunar Drops</item>
+        <item>Hood of Shadows</item>
+        <item>Tablet of the Ancient Gods</item>
+        <item>Comb of the Water Wrath</item>
+        <item>Bow of Starlight Arrows</item>
+        <item>Staff of the Fire Serpent</item>
+        <item>Blade of the Twilight Edge</item>
+        <item>Pendant of Moon’s Echo</item>
+        <item>Talisman of Woodland Phantoms</item>
+        <item>Enchanted Hat of Illusions</item>
+        <item>Tome of Iceborne Wisdom</item>
+        <item>Lantern of the Ghostlight</item>
+        <item>Bracers of the Thunderstrike</item>
+        <item>Scepter of the Phoenix Flame</item>
+        <item>Orb of the Shattered Sky</item>
+    </string-array>
+
+    <string-array name="quest_names">
+        <item>Rhyme Time</item>
+        <item>Tongue Twister Challenge</item>
+        <item>Dance Duel</item>
+        <item>Freeze Frame</item>
+        <item>Storyteller\'s Spin</item>
+        <item>Accent Adventure</item>
+        <item>Riddle Me This</item>
+        <item>Charades Showdown</item>
+        <item>Sing or Shrink</item>
+        <item>Quick Draw</item>
+        <item>Whispering Wind</item>
+        <item>Backwards Talk</item>
+        <item>Eyes Closed Explorer</item>
+        <item>The Compliment Quest</item>
+        <item>Animal Call</item>
+        <item>Emotional Rollercoaster</item>
+        <item>Three-Word Story</item>
+        <item>Silent Mime</item>
+        <item>Guess the Number</item>
+        <item>Balance Master</item>
+    </string-array>
+
+    <string-array name="quest_descs">
+        <item>For the next round, you can only speak in rhymes. If you fail to rhyme, you lose your next turn!</item>
+        <item>Draw a tongue twister card and repeat it 3 times quickly without making a mistake. If you succeed, earn a bonus turn. If you fail, lose a turn!</item>
+        <item>Challenge another player to a dance-off! Both of you must perform your best 10-second dance. The other players will vote on the winner, who receives a reward token.</item>
+        <item>For the next minute, you must stay completely still in a "frozen" pose. If you move or laugh, you lose a point. Other players are allowed to try and make you break your pose!</item>
+        <item>Create a short, imaginative story using the names of at least 3 players at the table. The story must be entertaining and completed within 1 minute. The group will decide if the story is worthy of a reward.</item>
+        <item>For the next 3 rounds, speak in a random accent (chosen by another player). If you break character, you lose a turn. If you keep it up, you earn a bonus item!</item>
+        <item>Pick another player and challenge them with a riddle. If they solve it within 30 seconds, they earn a reward. If they can\'t, you take one of their reward tokens!</item>
+        <item>Act out a random word or phrase chosen by another player without speaking. The group has 30 seconds to guess. If they guess correctly, you both get a reward!</item>
+        <item>You must sing a verse from a well-known song for 20 seconds. If you refuse, you lose a reward token. If you complete the challenge, you gain a bonus turn.</item>
+        <item>You have 30 seconds to draw something related to the current game theme (e.g., a magical item, character, or creature). The other players will guess what it is. If they guess right, you earn a reward!</item>
+        <item>For the next round, you can only speak in whispers. If you forget and speak normally, you lose a reward token. If you complete the round successfully, you gain an item card.</item>
+        <item>For the next 2 minutes, every sentence you say must be spoken backwards. For example, "I am happy" becomes "Happy am I." If you slip up, lose a reward token!</item>
+        <item>For your next turn, you must move your game piece with your eyes closed, guided only by the verbal directions of another player. If you land in the correct zone, you get an extra turn!</item>
+        <item>Give each player at the table a sincere and creative compliment within 1 minute. If you succeed, you earn a reward token. If you hesitate or run out of ideas, you lose your next turn!</item>
+        <item>For the next round, every time you speak, you must make an animal sound at the beginning or end of your sentence. If you forget, you lose a reward token!</item>
+        <item>Pick an emotion from a card (happy, sad, angry, excited, etc.) and act out that emotion for the rest of the round. The group will vote on whether you stayed in character. If they agree, you earn a bonus item card.</item>
+        <item>Start a story, but each of your sentences can only have three words (e.g., "Once there was… a magical cat"). Keep the story going for 1 minute. If the group finds it entertaining, you gain a reward token.</item>
+        <item>For the next round, you must communicate with other players only through gestures and facial expressions—no speaking allowed! If you can successfully convey your message, you get an extra turn.</item>
+        <item>Think of a number between 1 and 20. Each player gets one chance to guess it. If someone guesses correctly, they take one of your reward tokens. If no one guesses, you gain a reward!</item>
+        <item>Hold an object (like a card or token) on your head for 1 minute without it falling. If it stays balanced the whole time, you gain a reward. If it falls, you lose a turn!</item>
+    </string-array>
+
+</resources>

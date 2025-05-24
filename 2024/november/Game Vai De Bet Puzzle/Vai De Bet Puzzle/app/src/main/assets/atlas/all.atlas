@@ -1,0 +1,14 @@
+all.png
+size: 1084, 232
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+top_panel
+  rotate: false
+  xy: 2, 2
+  size: 1080, 228
+  split: 0, 0, 0, 228
+  pad: 165, 867, -1, -1
+  orig: 1080, 228
+  offset: 0, 0
+  index: -1
