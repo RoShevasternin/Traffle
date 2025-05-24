@@ -1,0 +1,12 @@
+particle.png
+size: 87, 89
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+star
+  rotate: false
+  xy: 2, 2
+  size: 83, 85
+  orig: 83, 85
+  offset: 0, 0
+  index: -1
