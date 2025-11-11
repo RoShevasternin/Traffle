@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Mythic Trivia: Greek Gods Edition</string>
+    <string name="app_name">Mythic Trivia: Greek</string>
 
     <!--Names-->
     <string-array name="names_monsters">
