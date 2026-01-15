@@ -1,0 +1,89 @@
+vse.png
+size: 999, 773
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+15
+  rotate: false
+  xy: 1, 1
+  size: 167, 74
+  orig: 167, 74
+  offset: 0, 0
+  index: -1
+25
+  rotate: false
+  xy: 169, 1
+  size: 167, 74
+  orig: 167, 74
+  offset: 0, 0
+  index: -1
+60
+  rotate: false
+  xy: 337, 1
+  size: 167, 74
+  orig: 167, 74
+  offset: 0, 0
+  index: -1
+105
+  rotate: false
+  xy: 505, 1
+  size: 167, 74
+  orig: 167, 74
+  offset: 0, 0
+  index: -1
+cbdef
+  rotate: false
+  xy: 777, 1
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+cbpres
+  rotate: false
+  xy: 855, 1
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+colichestvo
+  rotate: false
+  xy: 315, 79
+  size: 383, 144
+  orig: 383, 144
+  offset: 0, 0
+  index: -1
+compass
+  rotate: false
+  xy: 673, 1
+  size: 103, 74
+  orig: 103, 74
+  offset: 0, 0
+  index: -1
+manu
+  rotate: false
+  xy: 1, 278
+  size: 929, 494
+  orig: 929, 494
+  offset: 0, 0
+  index: -1
+mdef
+  rotate: false
+  xy: 1, 79
+  size: 156, 92
+  orig: 156, 92
+  offset: 0, 0
+  index: -1
+mpres
+  rotate: false
+  xy: 158, 79
+  size: 156, 92
+  orig: 156, 92
+  offset: 0, 0
+  index: -1
+pilot
+  rotate: false
+  xy: 699, 79
+  size: 299, 198
+  orig: 299, 198
+  offset: 0, 0
+  index: -1

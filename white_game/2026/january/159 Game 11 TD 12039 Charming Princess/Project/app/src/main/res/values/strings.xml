@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Princess of Sands</string>
+
+    <string name="tutorial_menu_rules">Click on this button and you will go to the rules screen.</string>
+    <string name="tutorial_rules_back">Click back to return to the previous screen.</string>
+    <string name="tutorial_menu_settings">Click on this button and you will go to the settings screen.</string>
+    <string name="tutorial_settings_music">Move your finger along the progress of the Music bar to adjust the music.</string>
+    <string name="tutorial_settings_sound">Move your finger along the progress of the Sound bar to adjust the sound.</string>
+    <string name="tutorial_settings_back">Click back to return to the previous screen.</string>
+    <string name="tutorial_menu_levels">Click on this button and you will go to the levels screen.</string>
+    <string name="tutorial_levels_locked">Levels with a lock icon are locked, they are unlocked if you pass the previous level.</string>
+    <string name="tutorial_levels_unlocked">Blue levels are unlocked, in the middle the number 1 is the level, at the bottom 0/100 - it means you need to score 100 points to unlock the next level.</string>
+    <string name="tutorial_game">Throw this ball at the elements around to score points, when you score 100 or more points, press the save button that will appear to save your score and go to the next level.</string>
+
+
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Cosmic Bounce</string>
+
+    <string-array name="title">
+        <item>Astral Triangle</item>
+        <item>Galaxy Ruby</item>
+        <item>Triarch of the Cosmos</item>
+        <item>Celestial Magnetodisk</item>
+        <item>Luminous Starwheel</item>
+        <item>Nebular Pin</item>
+        <item>Gemini Emblem</item>
+    </string-array>
+
+    <string-array name="text">
+        <item>Description: The Astral Triangle is a mysterious formation in the vast expanse of space, consisting of three luminous stars that form a perfect triangle in the sky. This cosmic triangle is shrouded in legends of unknown civilizations that once used it as a navigational marker for intergalactic voyages. Its vertices point to the three most distant corners of the universe, and within its boundaries lies a multitude of anomalies and enigmatic objects that attract explorers and astronomers from across the galaxy. The light from the stars forming the Astral Triangle possesses a unique energetic quality, shifting colors depending on the angle of observation, creating the illusion that the triangle is in constant motion.</item>
+        <item>Description: The Galaxy Ruby is a colossal crystal drifting through the distant reaches of space, surrounded by an aura of red light. It is believed that this rare gem was formed from the explosive force of a supernova, compressing infinite energy and matter into this brilliantly red jewel. Legends speak of the Galaxy Ruby\'s unparalleled power, capable of altering planetary trajectories and influencing time itself. Its surface glows from within, as if it contains the heart of a star, while gravitational waves swirl around it, pulling everything in their path. The Galaxy Ruby is the coveted prize of many space adventurers, for possessing it promises boundless power and secrets beyond human comprehension.</item>
+        <item>Description: The Triarch of the Cosmos is a majestic and enigmatic entity, the supreme ruler of all cosmic triangles that span the universe. This colossal triangle is composed of three celestial bodies that emit a radiant, golden light, signifying its absolute authority. Each vertex of the Triarch connects to a different dimension, allowing it to control and command the myriad of lesser triangles scattered across the galaxies.</item>
+        <item>Description: The Celestial Magnetodisk is a powerful and mysterious cosmic object, a vast, rotating disk composed of supercharged magnetic material. Suspended in the depths of space, this disk generates immense magnetic fields that stretch across galaxies, influencing the movement of stars, planets, and cosmic debris. Its surface is a swirling mass of energy, crackling with electric currents that create dazzling auroras visible from light-years away.</item>
+        <item>Description: The Luminous Starwheel is a breathtaking cosmic phenomenon, a gigantic disk composed entirely of pure, concentrated light. Spinning gracefully in the void of space, this disk radiates an array of colors, from deep violet to bright white, creating a mesmerizing spectacle that can be seen across vast distances. The Starwheel\'s light is so intense that it illuminates entire star systems, casting a gentle glow on distant planets and moons.</item>
+        <item>Description: The Nebular Pin is a striking and peculiar cosmic structure, resembling an enormous bowling pin suspended within the heart of a swirling nebula. Composed of dense, crystalline matter, this towering formation gleams with the light of countless stars trapped within its transparent surface. The Nebular Pin is surrounded by a halo of interstellar gas and dust, which spirals around it in a mesmerizing dance, giving the impression that the Pin is perpetually in motion, ready to topple and set off a cosmic chain reaction.</item>
+        <item>Description: The Gemini Emblem is a mysterious and powerful cosmic symbol, appearing as two identical, interlocked figures floating in the void of space. These twin shapes glow with a soft, ethereal light, their mirrored forms creating a perfect symmetry that captivates all who gaze upon them. The Emblem is believed to represent the duality of the universe—light and dark, creation and destruction, order and chaos—encapsulated in a single, unified symbol.</item>
+    </string-array>
+</resources>

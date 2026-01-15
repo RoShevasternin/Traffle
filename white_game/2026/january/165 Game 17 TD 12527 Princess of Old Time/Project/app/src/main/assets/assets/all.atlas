@@ -1,0 +1,180 @@
+all.png
+size: 1903, 976
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 0, 141
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 200, 141
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 400, 141
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 600, 141
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 800, 141
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+a1
+  rotate: false
+  xy: 1029, 0
+  size: 207, 127
+  orig: 207, 127
+  offset: 0, 0
+  index: -1
+a2
+  rotate: false
+  xy: 1236, 0
+  size: 207, 127
+  orig: 207, 127
+  offset: 0, 0
+  index: -1
+ex_df
+  rotate: false
+  xy: 1443, 0
+  size: 230, 141
+  orig: 230, 141
+  offset: 0, 0
+  index: -1
+ex_ps
+  rotate: false
+  xy: 1673, 0
+  size: 230, 141
+  orig: 230, 141
+  offset: 0, 0
+  index: -1
+ga_df
+  rotate: false
+  xy: 842, 341
+  size: 420, 256
+  orig: 420, 256
+  offset: 0, 0
+  index: -1
+ga_ps
+  rotate: false
+  xy: 1262, 341
+  size: 420, 256
+  orig: 420, 256
+  offset: 0, 0
+  index: -1
+left
+  rotate: false
+  xy: 641, 341
+  size: 201, 434
+  orig: 201, 434
+  offset: 0, 0
+  index: -1
+mn_df
+  rotate: false
+  xy: 657, 0
+  size: 186, 113
+  orig: 186, 113
+  offset: 0, 0
+  index: -1
+mn_ps
+  rotate: false
+  xy: 843, 0
+  size: 186, 113
+  orig: 186, 113
+  offset: 0, 0
+  index: -1
+msc
+  rotate: false
+  xy: 200, 0
+  size: 136, 136
+  orig: 136, 136
+  offset: 0, 0
+  index: -1
+msc_prs
+  rotate: false
+  xy: 336, 0
+  size: 136, 136
+  orig: 136, 136
+  offset: 0, 0
+  index: -1
+prpl
+  rotate: false
+  xy: 472, 0
+  size: 185, 113
+  orig: 185, 113
+  offset: 0, 0
+  index: -1
+rc_df
+  rotate: false
+  xy: 1000, 141
+  size: 290, 177
+  orig: 290, 177
+  offset: 0, 0
+  index: -1
+rc_ps
+  rotate: false
+  xy: 1290, 141
+  size: 290, 177
+  orig: 290, 177
+  offset: 0, 0
+  index: -1
+snd
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+snd_prs
+  rotate: false
+  xy: 100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+top
+  rotate: false
+  xy: 0, 775
+  size: 1521, 201
+  orig: 1521, 201
+  offset: 0, 0
+  index: -1
+vc_df
+  rotate: false
+  xy: 1580, 141
+  size: 290, 177
+  orig: 290, 177
+  offset: 0, 0
+  index: -1
+vc_ps
+  rotate: false
+  xy: 0, 341
+  size: 290, 177
+  orig: 290, 177
+  offset: 0, 0
+  index: -1
+yellow
+  rotate: false
+  xy: 290, 341
+  size: 351, 214
+  orig: 351, 214
+  offset: 0, 0
+  index: -1

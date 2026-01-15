@@ -1,0 +1,9 @@
+<resources>
+    <style name="Base.Theme.Popar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
+    <style name="Theme.Popar" parent="Base.Theme.Popar"/>
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Royal Tomb Secrets</string>
+    <string name="rules_text">To get a certain item from the collection, you need to type the number of correct answers under the item.</string>
+
+    <string-array name="questions">
+        <item>Which pharaoh unified Upper and Lower Egypt, becoming the first ruler of a united Egypt?</item>
+        <item>What is the name of the main river that flows through Egypt?</item>
+        <item>Which is the largest pyramid in Egypt?</item>
+        <item>Who was the first pharaoh of united Egypt?</item>
+        <item>What famous statue lies near the pyramids in Giza?</item>
+        <item>Which god was the ruler of the underworld?</item>
+        <item>What is the name of the book that describes the afterlife in Egyptian culture?</item>
+        <item>Which pharaoh built the most temples and monuments?</item>
+        <item>What item is a symbol of a pharaoh\'s power?</item>
+        <item>Which bird was the symbol of the god Horus?</item>
+        <item>What city was the capital of Ancient Egypt during the Middle Kingdom?</item>
+        <item>What animal was sacred to the goddess Hathor?</item>
+        <item>What metal was primarily used for making weapons in Ancient Egypt?</item>
+        <item>Which pharaoh was known for his religious reforms?</item>
+        <item>What is the name of the process of preserving the body after death in Ancient Egypt?</item>
+        <item>Which famous pharaoh was buried in a "Golden" sarcophagus?</item>
+        <item>What plant was a symbol of Lower Egypt?</item>
+        <item>Which pharaoh was known for the Battle of Kadesh?</item>
+        <item>Which Egyptian god was known as the patron of science and wisdom?</item>
+        <item>Which queen was one of the most famous rulers of Egypt?</item>
+    </string-array>
+
+</resources>

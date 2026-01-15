@@ -1,0 +1,103 @@
+conhetu.png
+size: 183, 1978
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 1, 76
+  size: 156, 156
+  orig: 156, 156
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 1, 704
+  size: 157, 156
+  orig: 157, 156
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 1, 861
+  size: 157, 156
+  orig: 157, 156
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 1, 1018
+  size: 157, 156
+  orig: 157, 156
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 1, 233
+  size: 156, 156
+  orig: 156, 156
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 1, 390
+  size: 156, 156
+  orig: 156, 156
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 1, 1175
+  size: 157, 156
+  orig: 157, 156
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 1, 1332
+  size: 157, 156
+  orig: 157, 156
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 1, 1489
+  size: 157, 156
+  orig: 157, 156
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 1, 547
+  size: 156, 156
+  orig: 156, 156
+  offset: 0, 0
+  index: -1
+cb_def
+  rotate: false
+  xy: 1, 1
+  size: 90, 74
+  orig: 90, 74
+  offset: 0, 0
+  index: -1
+cb_press
+  rotate: false
+  xy: 92, 1
+  size: 90, 74
+  orig: 90, 74
+  offset: 0, 0
+  index: -1
+munu
+  rotate: false
+  xy: 1, 1646
+  size: 165, 165
+  orig: 165, 165
+  offset: 0, 0
+  index: -1
+munu_pers
+  rotate: false
+  xy: 1, 1812
+  size: 165, 165
+  orig: 165, 165
+  offset: 0, 0
+  index: -1
