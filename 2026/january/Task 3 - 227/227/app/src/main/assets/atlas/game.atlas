@@ -1,0 +1,117 @@
+game.png
+size: 477, 1067
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 2
+  size: 220, 220
+  orig: 220, 220
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 224, 2
+  size: 220, 220
+  orig: 220, 220
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 2, 224
+  size: 220, 220
+  orig: 220, 220
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 224, 224
+  size: 220, 220
+  orig: 220, 220
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 2, 446
+  size: 220, 220
+  orig: 220, 220
+  offset: 0, 0
+  index: -1
+ballon
+  rotate: false
+  xy: 224, 446
+  size: 144, 144
+  orig: 144, 144
+  offset: 0, 0
+  index: -1
+heart
+  rotate: false
+  xy: 370, 446
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+md
+  rotate: false
+  xy: 2, 668
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+money1
+  rotate: false
+  xy: 106, 668
+  size: 169, 169
+  orig: 169, 169
+  offset: 0, 0
+  index: -1
+money2
+  rotate: false
+  xy: 277, 668
+  size: 169, 169
+  orig: 169, 169
+  offset: 0, 0
+  index: -1
+money3
+  rotate: false
+  xy: 2, 839
+  size: 169, 169
+  orig: 169, 169
+  offset: 0, 0
+  index: -1
+money4
+  rotate: false
+  xy: 173, 839
+  size: 169, 169
+  orig: 169, 169
+  offset: 0, 0
+  index: -1
+mp
+  rotate: false
+  xy: 344, 839
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+pan_coin
+  rotate: false
+  xy: 2, 1010
+  size: 220, 55
+  orig: 220, 55
+  offset: 0, 0
+  index: -1
+pan_time
+  rotate: false
+  xy: 224, 1010
+  size: 220, 55
+  orig: 220, 55
+  offset: 0, 0
+  index: -1
+sub
+  rotate: false
+  xy: 446, 1010
+  size: 29, 26
+  orig: 29, 26
+  offset: 0, 0
+  index: -1

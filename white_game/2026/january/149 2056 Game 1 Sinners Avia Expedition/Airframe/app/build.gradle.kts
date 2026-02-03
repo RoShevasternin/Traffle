@@ -11,8 +11,8 @@ android {
         applicationId = "com.skyplane.puzzleflight"
         minSdk = 24
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "2.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -58,7 +58,7 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:2.9.6")
     implementation("androidx.datastore:datastore-preferences:1.2.0")
 
-    val gdxVersion = "1.13.1"
+    val gdxVersion = "1.14.0"
     implementation("com.badlogicgames.gdx:gdx-backend-android:$gdxVersion")
     natives("com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-armeabi-v7a")
     natives("com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-arm64-v8a")

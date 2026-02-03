@@ -1,0 +1,47 @@
+loader.png
+size: 1988, 1648
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+circle
+  rotate: false
+  xy: 2, 2
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+fruit
+  rotate: false
+  xy: 33, 2
+  size: 399, 377
+  orig: 399, 377
+  offset: 0, 0
+  index: -1
+gorilla
+  rotate: false
+  xy: 911, 517
+  size: 1075, 1129
+  orig: 1075, 1129
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 2, 517
+  size: 907, 598
+  orig: 907, 598
+  offset: 0, 0
+  index: -1
+loading
+  rotate: false
+  xy: 1056, 2
+  size: 785, 285
+  orig: 785, 285
+  offset: 0, 0
+  index: -1
+sevebs
+  rotate: false
+  xy: 434, 2
+  size: 620, 513
+  orig: 620, 513
+  offset: 0, 0
+  index: -1

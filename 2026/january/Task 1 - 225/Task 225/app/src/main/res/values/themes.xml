@@ -1,0 +1,8 @@
+<resources>
+    <style name="Base.Theme.Pupupu" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <style name="Theme.ChickenRunRoad100x" parent="Base.Theme.Pupupu"/>
+</resources>

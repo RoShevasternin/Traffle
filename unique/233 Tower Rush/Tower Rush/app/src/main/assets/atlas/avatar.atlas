@@ -1,0 +1,124 @@
+avatar.png
+size: 1897, 1518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+avatar
+  rotate: false
+  xy: 2, 2
+  size: 377, 377
+  orig: 377, 377
+  offset: 0, 0
+  index: -1
+avatar_1
+  rotate: false
+  xy: 381, 2
+  size: 377, 377
+  orig: 377, 377
+  offset: 0, 0
+  index: -1
+avatar_2
+  rotate: false
+  xy: 760, 2
+  size: 377, 377
+  orig: 377, 377
+  offset: 0, 0
+  index: -1
+avatar_3
+  rotate: false
+  xy: 1139, 2
+  size: 377, 377
+  orig: 377, 377
+  offset: 0, 0
+  index: -1
+avatar_4
+  rotate: false
+  xy: 1518, 2
+  size: 377, 377
+  orig: 377, 377
+  offset: 0, 0
+  index: -1
+avatar_5
+  rotate: false
+  xy: 2, 381
+  size: 377, 377
+  orig: 377, 377
+  offset: 0, 0
+  index: -1
+avatar_6
+  rotate: false
+  xy: 381, 381
+  size: 377, 377
+  orig: 377, 377
+  offset: 0, 0
+  index: -1
+avatar_7
+  rotate: false
+  xy: 760, 381
+  size: 377, 377
+  orig: 377, 377
+  offset: 0, 0
+  index: -1
+avatar_8
+  rotate: false
+  xy: 1139, 381
+  size: 377, 377
+  orig: 377, 377
+  offset: 0, 0
+  index: -1
+avatar_9
+  rotate: false
+  xy: 1518, 381
+  size: 377, 377
+  orig: 377, 377
+  offset: 0, 0
+  index: -1
+avatar_10
+  rotate: false
+  xy: 2, 760
+  size: 377, 377
+  orig: 377, 377
+  offset: 0, 0
+  index: -1
+avatar_11
+  rotate: false
+  xy: 381, 760
+  size: 377, 377
+  orig: 377, 377
+  offset: 0, 0
+  index: -1
+avatar_12
+  rotate: false
+  xy: 760, 760
+  size: 377, 377
+  orig: 377, 377
+  offset: 0, 0
+  index: -1
+avatar_13
+  rotate: false
+  xy: 1139, 760
+  size: 377, 377
+  orig: 377, 377
+  offset: 0, 0
+  index: -1
+avatar_14
+  rotate: false
+  xy: 1518, 760
+  size: 377, 377
+  orig: 377, 377
+  offset: 0, 0
+  index: -1
+avatar_15
+  rotate: false
+  xy: 2, 1139
+  size: 377, 377
+  orig: 377, 377
+  offset: 0, 0
+  index: -1
+avatar_16
+  rotate: false
+  xy: 381, 1139
+  size: 377, 377
+  orig: 377, 377
+  offset: 0, 0
+  index: -1

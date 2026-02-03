@@ -1,0 +1,82 @@
+all.png
+size: 426, 565
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+air1
+  rotate: false
+  xy: 105, 98
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+air2
+  rotate: false
+  xy: 2, 310
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+air3
+  rotate: false
+  xy: 214, 310
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+heart
+  rotate: false
+  xy: 86, 2
+  size: 55, 55
+  orig: 55, 55
+  offset: 0, 0
+  index: -1
+money1
+  rotate: false
+  xy: 32, 2
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+money2
+  rotate: false
+  xy: 143, 2
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1
+money3
+  rotate: false
+  xy: 232, 2
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+money4
+  rotate: false
+  xy: 328, 2
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+palet
+  rotate: false
+  xy: 2, 2
+  size: 28, 38
+  orig: 28, 38
+  offset: 0, 0
+  index: -1
+panel
+  rotate: false
+  xy: 2, 522
+  size: 339, 41
+  orig: 339, 41
+  offset: 0, 0
+  index: -1
+shar
+  rotate: false
+  xy: 2, 98
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
