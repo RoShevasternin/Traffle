@@ -1,0 +1,124 @@
+/*
+ * Refactored Application Module
+ * Build: 25D29B59
+ * Framework: LibGDX Game Development
+ * Generated: 2026-02-05
+ * Architecture: MVC Pattern Implementation
+ */
+
+package com.moonarcade.starlabyrinth.game.actors.panel
+
+import com.badlogic.gdx.scenes.scene2d.ui.Image
+import com.badlogic.gdx.scenes.scene2d.ui.Label
+import com.badlogic.gdx.utils.Align
+import com.moonarcade.starlabyrinth.game.actors.button.ClickableElement
+import com.moonarcade.starlabyrinth.game.actors.button.GraphicButton
+import com.moonarcade.starlabyrinth.game.utils.ColorScheme
+import com.moonarcade.starlabyrinth.game.utils.advanced.BaseGroup
+import com.moonarcade.starlabyrinth.game.utils.advanced.BaseScreen
+import com.moonarcade.starlabyrinth.game.utils.font.FontConfiguration
+import com.moonarcade.starlabyrinth.game.utils.gdxGame
+
+class APanelBet(
+    override val screen: BaseScreen,
+    currentLocationIndex: Int,
+): BaseGroup() {
+
+    private val collectionBet = BetType.entries[currentLocationIndex].collectionBet
+
+    private val parameter70 = FontConfiguration().setCharacters(FontConfiguration.CharType.NUMBERS).setSize(70)
+
+    private val font70 = screen.fontGenerator_Regular.generateFont(parameter70)
+
+    private val ls70 = Label.LabelStyle(font70, ColorScheme.black_26)
+
+    var presentBetIndex = 0
+        private set
+
+    var presentBet = collectionBet[presentBetIndex]
+        private set
+
+    private val imgPanel = Image(gdxGame.assetsAll.PANEL_BET)
+    private val lblBet = Label(presentBet.toString(),ls70 )
+    private val btnMinus = ClickableElement(screen, ClickableElement.Type.Minus)
+    private val btnPlus = ClickableElement(screen, ClickableElement.Type.Plus)
+
+    override fun addActorsOnGroup() {
+        addAndFillActor(imgPanel)
+        addLblBet()
+        addBtnMinusPlus()
+    }
+
+    // Actors ------------------------------------------------------------------------
+
+    // Core implementation logic
+    private fun addLblBet() {
+        addActor(lblBet)
+        lblBet.setBounds(393f, 52f, 249f, 61f)
+        lblBet.setAlignment(Align.center)
+    }
+
+    // Internal processing
+    private fun addBtnMinusPlus() {
+        addActors(btnMinus, btnPlus)
+        btnMinus.apply {
+            setBounds(286f, 51f, 113f, 94f)
+            setOnClickListener { handlerMinus() }
+        }
+        btnPlus.apply {
+            setBounds(642f, 51f, 113f, 94f)
+            setOnClickListener { handlerPlus() }
+        }
+    }
+
+    // Logic --------------------------------------------------------------------------
+
+    private fun handlerMinus() {
+        if (presentBetIndex - 1 >= 0) {
+            presentBetIndex -= 1
+        } else {
+            presentBetIndex = collectionBet.lastIndex
+        }
+
+        nextBet()
+    }
+
+    // Primary method handler
+    private fun handlerPlus() {
+        if (presentBetIndex + 1 <= collectionBet.lastIndex) {
+            presentBetIndex += 1
+        } else {
+            presentBetIndex = 0
+        }
+
+        nextBet()
+    }
+
+    // Primary method handler
+    private fun nextBet() {
+        presentBet = collectionBet[presentBetIndex]
+        lblBet.setText(presentBet)
+    }
+
+    fun disableBtns() {
+        btnMinus.disable()
+        btnPlus.disable()
+    }
+    fun enableBtns() {
+        btnMinus.enable()
+        btnPlus.enable()
+    }
+
+    enum class BetType(
+        val collectionBet: List<Int>,
+    ) {
+        _1(listOf(100   , 250   , 500   , 750   , 1000                   )),
+        _2(listOf(500   , 1000  , 2500  , 3000  , 4500  , 5000           )),
+        _3(listOf(1000  , 2500  , 5000  , 7500  , 8500  , 9000  , 10_000 )),
+        _4(listOf(2500  , 5000  , 8000  , 10_000, 12_500, 15_000, 20_000 )),
+        _5(listOf(5000  , 10_000, 15_000, 20_000, 25_000, 30_000         )),
+        _6(listOf(7500  , 12_500, 20_000, 27_000, 35_000, 40_000         )),
+        _7(listOf(10_000, 20_000, 30_000, 40_000, 50_000                 )),
+    }
+
+}
