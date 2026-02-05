@@ -4,7 +4,7 @@
         <key>fileFormatVersion</key>
         <int>6</int>
         <key>texturePackerVersion</key>
-        <string>7.5.0</string>
+        <string>7.10.0</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -124,7 +124,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../Gorilla Casino/app/src/main/assets/atlas/all.atlas</filename>
+                <filename>../../Tower Rush/app/src/main/assets/atlas/all.atlas</filename>
             </struct>
         </map>
         <key>multiPackMode</key>
@@ -296,6 +296,56 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">minus_def.png</key>
+            <key type="filename">minus_press.png</key>
+            <key type="filename">plus_def.png</key>
+            <key type="filename">plus_press.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>29,24,57,47</rect>
+                <key>scale9Paddings</key>
+                <rect>29,24,57,47</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">new_btn_back_def.png</key>
+            <key type="filename">new_btn_back_press.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>26,26,52,52</rect>
+                <key>scale9Paddings</key>
+                <rect>26,26,52,52</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">new_play_def.png</key>
+            <key type="filename">new_play_press.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>66,49,131,98</rect>
+                <key>scale9Paddings</key>
+                <rect>66,49,131,98</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">plus.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -403,6 +453,12 @@
         <key>normalMapSheetFileName</key>
         <filename></filename>
         <key>exporterProperties</key>
-        <map type="ExporterProperties"/>
+        <map type="ExporterProperties">
+            <key>libgdx::legacy-output</key>
+            <struct type="ExporterProperty">
+                <key>value</key>
+                <string>true</string>
+            </struct>
+        </map>
     </struct>
 </data>

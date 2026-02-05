@@ -4,7 +4,7 @@
         <key>fileFormatVersion</key>
         <int>6</int>
         <key>texturePackerVersion</key>
-        <string>7.5.0</string>
+        <string>7.10.0</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -124,7 +124,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../../Gorilla Casino/app/src/main/assets/atlas/item_2.atlas</filename>
+                <filename>../../../Tower Rush/app/src/main/assets/atlas/item_2.atlas</filename>
             </struct>
         </map>
         <key>multiPackMode</key>
@@ -217,6 +217,44 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">item_7_1.png</key>
+            <key type="filename">item_7_2.png</key>
+            <key type="filename">item_7_3.png</key>
+            <key type="filename">item_7_4.png</key>
+            <key type="filename">item_7_5.png</key>
+            <key type="filename">item_7_6.png</key>
+            <key type="filename">item_7_7.png</key>
+            <key type="filename">item_7_8.png</key>
+            <key type="filename">item_7_9.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>40,40,80,80</rect>
+                <key>scale9Paddings</key>
+                <rect>40,40,80,80</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">item_7_10.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>40,42,80,84</rect>
+                <key>scale9Paddings</key>
+                <rect>40,42,80,84</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
         </map>
         <key>fileLists</key>
         <map type="SpriteSheetMap">
@@ -249,6 +287,12 @@
         <key>normalMapSheetFileName</key>
         <filename></filename>
         <key>exporterProperties</key>
-        <map type="ExporterProperties"/>
+        <map type="ExporterProperties">
+            <key>libgdx::legacy-output</key>
+            <struct type="ExporterProperty">
+                <key>value</key>
+                <string>true</string>
+            </struct>
+        </map>
     </struct>
 </data>

@@ -11,8 +11,8 @@ android {
         applicationId = "com.skyplane.puzzleflight"
         minSdk = 24
         targetSdk = 36
-        versionCode = 2
-        versionName = "2.0.0"
+        versionCode = 3
+        versionName = "3.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -30,18 +30,23 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
-    kotlinOptions {
-        jvmTarget = "1.8"
+    kotlin {
+        compilerOptions {
+            jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
+        }
     }
     sourceSets {
         getByName("main") {
             jniLibs { srcDir("libs") }
         }
     }
-    viewBinding.enable = true
+    buildFeatures {
+        viewBinding = true
+        buildConfig = true
+    }
 }
 
 val natives: Configuration by configurations.creating
@@ -54,8 +59,8 @@ dependencies {
     implementation("androidx.core:core-ktx:1.17.0")
     implementation("androidx.appcompat:appcompat:1.7.1")
     implementation("androidx.constraintlayout:constraintlayout:2.2.1")
-    implementation("androidx.activity:activity-ktx:1.12.2")
-    implementation("androidx.navigation:navigation-fragment-ktx:2.9.6")
+    implementation("androidx.activity:activity-ktx:1.12.3")
+    implementation("androidx.navigation:navigation-fragment-ktx:2.9.7")
     implementation("androidx.datastore:datastore-preferences:1.2.0")
 
     val gdxVersion = "1.14.0"
