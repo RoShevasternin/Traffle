@@ -1,4 +1,4 @@
-package com.moonarcade.starlabyrinth
+package com.fruithaven.juicydashx
 
 import org.junit.Test
 

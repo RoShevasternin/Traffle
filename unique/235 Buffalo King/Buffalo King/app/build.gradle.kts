@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.moonarcade.starlabyrinth"
+    namespace = "com.fruithaven.juicydashx"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.moonarcade.starlabyrinth"
+        applicationId = "com.fruithaven.juicydashx"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

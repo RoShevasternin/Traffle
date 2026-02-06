@@ -124,7 +124,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../Lucky Pharaoh/app/src/main/assets/atlas/loader.atlas</filename>
+                <filename>../../Buffalo King/app/src/main/assets/atlas/loader.atlas</filename>
             </struct>
         </map>
         <key>multiPackMode</key>

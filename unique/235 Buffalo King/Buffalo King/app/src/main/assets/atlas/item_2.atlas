@@ -1,5 +1,5 @@
 item_2.png
-size: 974, 1153
+size: 974, 1148
 format: RGBA8888
 filter: Linear, Linear
 repeat: none
@@ -180,105 +180,105 @@ item_6_5
   index: -1
 item_6_6
   rotate: false
-  xy: 326, 974
-  size: 160, 165
-  orig: 160, 165
-  offset: 0, 0
-  index: -1
-item_6_7
-  rotate: false
   xy: 164, 650
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
-item_6_8
-  rotate: false
-  xy: 650, 974
-  size: 172, 177
-  orig: 172, 177
-  offset: 0, 0
-  index: -1
-item_6_9
+item_6_7
   rotate: false
   xy: 326, 650
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
-item_6_10
+item_6_8
   rotate: false
   xy: 488, 650
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
-item_7_1
+item_6_9
   rotate: false
   xy: 650, 650
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
-item_7_2
+item_6_10
   rotate: false
   xy: 812, 650
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
-item_7_3
+item_7_1
   rotate: false
   xy: 2, 812
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+item_7_2
+  rotate: false
+  xy: 164, 812
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+item_7_3
+  rotate: false
+  xy: 488, 986
   size: 169, 160
   orig: 169, 160
   offset: 0, 0
   index: -1
 item_7_4
   rotate: false
-  xy: 173, 812
+  xy: 326, 812
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_7_5
   rotate: false
-  xy: 488, 974
+  xy: 488, 812
   size: 160, 172
   orig: 160, 172
   offset: 0, 0
   index: -1
 item_7_6
   rotate: false
-  xy: 2, 974
+  xy: 650, 812
   size: 160, 163
   orig: 160, 163
   offset: 0, 0
   index: -1
 item_7_7
   rotate: false
-  xy: 164, 974
-  size: 160, 163
-  orig: 160, 163
+  xy: 812, 812
+  size: 160, 160
+  orig: 160, 160
   offset: 0, 0
   index: -1
 item_7_8
   rotate: false
-  xy: 335, 812
+  xy: 2, 986
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_7_9
   rotate: false
-  xy: 497, 812
+  xy: 164, 986
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_7_10
   rotate: false
-  xy: 659, 812
+  xy: 326, 986
   size: 160, 160
   orig: 160, 160
   offset: 0, 0

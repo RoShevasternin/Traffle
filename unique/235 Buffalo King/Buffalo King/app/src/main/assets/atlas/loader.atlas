@@ -1,5 +1,5 @@
 loader.png
-size: 1577, 1392
+size: 1598, 1204
 format: RGBA8888
 filter: Linear, Linear
 repeat: none
@@ -20,8 +20,8 @@ fruit
 gorilla
   rotate: false
   xy: 911, 517
-  size: 664, 873
-  orig: 664, 873
+  size: 685, 685
+  orig: 685, 685
   offset: 0, 0
   index: -1
 light
