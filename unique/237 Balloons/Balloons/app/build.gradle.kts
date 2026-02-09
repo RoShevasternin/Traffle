@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.quantumplay.orbitcrasher"
+    namespace = "com.sugargalaxy.candyrunio"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.quantumplay.orbitcrasher"
+        applicationId = "com.sugargalaxy.candyrunio"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

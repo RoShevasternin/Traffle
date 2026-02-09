@@ -1,5 +1,5 @@
 all.png
-size: 987, 786
+size: 986, 790
 format: RGBA8888
 filter: Linear, Linear
 repeat: none
@@ -12,28 +12,28 @@ arrow
   index: -1
 box_check
   rotate: false
-  xy: 217, 264
+  xy: 217, 268
   size: 220, 170
   orig: 220, 170
   offset: 0, 0
   index: -1
 box_def
   rotate: false
-  xy: 439, 264
+  xy: 439, 268
   size: 221, 170
   orig: 221, 170
   offset: 0, 0
   index: -1
 btn_def
   rotate: false
-  xy: 734, 109
+  xy: 745, 113
   size: 213, 151
   orig: 213, 151
   offset: 0, 0
   index: -1
 btn_press
   rotate: false
-  xy: 2, 264
+  xy: 2, 268
   size: 213, 151
   orig: 213, 151
   offset: 0, 0
@@ -54,7 +54,7 @@ gear
   index: -1
 gem
   rotate: false
-  xy: 572, 109
+  xy: 583, 113
   size: 160, 153
   orig: 160, 153
   offset: 0, 0
@@ -75,42 +75,42 @@ minus
   index: -1
 minus_def
   rotate: false
-  xy: 638, 2
-  size: 114, 105
-  orig: 114, 105
+  xy: 858, 2
+  size: 114, 106
+  orig: 114, 106
   offset: 0, 0
   index: -1
 minus_press
   rotate: false
-  xy: 754, 2
-  size: 114, 105
-  orig: 114, 105
+  xy: 2, 113
+  size: 114, 106
+  orig: 114, 106
   offset: 0, 0
   index: -1
 new_btn_back_def
   rotate: false
-  xy: 119, 109
-  size: 108, 114
-  orig: 108, 114
+  xy: 638, 2
+  size: 108, 109
+  orig: 108, 109
   offset: 0, 0
   index: -1
 new_btn_back_press
   rotate: false
-  xy: 229, 109
-  size: 108, 114
-  orig: 108, 114
+  xy: 748, 2
+  size: 108, 109
+  orig: 108, 109
   offset: 0, 0
   index: -1
 new_play_def
   rotate: false
-  xy: 662, 264
+  xy: 662, 268
   size: 282, 196
   orig: 282, 196
   offset: 0, 0
   index: -1
 new_play_press
   rotate: false
-  xy: 2, 462
+  xy: 2, 466
   size: 282, 196
   orig: 282, 196
   offset: 0, 0
@@ -124,21 +124,21 @@ plus
   index: -1
 plus_def
   rotate: false
-  xy: 870, 2
-  size: 115, 105
-  orig: 115, 105
+  xy: 118, 113
+  size: 114, 106
+  orig: 114, 106
   offset: 0, 0
   index: -1
 plus_press
   rotate: false
-  xy: 2, 109
-  size: 115, 105
-  orig: 115, 105
+  xy: 234, 113
+  size: 114, 106
+  orig: 114, 106
   offset: 0, 0
   index: -1
 price_gems
   rotate: false
-  xy: 339, 109
+  xy: 350, 113
   size: 231, 105
   orig: 231, 105
   offset: 0, 0
@@ -159,14 +159,14 @@ right
   index: -1
 spin_def
   rotate: false
-  xy: 286, 462
+  xy: 286, 466
   size: 348, 322
   orig: 348, 322
   offset: 0, 0
   index: -1
 spin_press
   rotate: false
-  xy: 636, 462
+  xy: 636, 466
   size: 348, 322
   orig: 348, 322
   offset: 0, 0

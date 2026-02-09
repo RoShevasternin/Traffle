@@ -1,5 +1,5 @@
 item_2.png
-size: 974, 1156
+size: 1012, 1175
 format: RGBA8888
 filter: Linear, Linear
 repeat: none
@@ -13,76 +13,76 @@ item_4_1
 item_4_2
   rotate: false
   xy: 164, 2
-  size: 160, 160
-  orig: 160, 160
+  size: 163, 160
+  orig: 163, 160
   offset: 0, 0
   index: -1
 item_4_3
   rotate: false
-  xy: 326, 2
+  xy: 329, 2
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_4_4
   rotate: false
-  xy: 488, 2
+  xy: 491, 2
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_4_5
   rotate: false
-  xy: 650, 2
+  xy: 653, 2
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_4_6
   rotate: false
-  xy: 812, 2
-  size: 160, 160
-  orig: 160, 160
+  xy: 815, 2
+  size: 161, 160
+  orig: 161, 160
   offset: 0, 0
   index: -1
 item_4_7
   rotate: false
   xy: 2, 164
-  size: 160, 160
-  orig: 160, 160
+  size: 190, 160
+  orig: 190, 160
   offset: 0, 0
   index: -1
 item_4_8
   rotate: false
-  xy: 164, 164
+  xy: 194, 164
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_4_9
   rotate: false
-  xy: 326, 164
+  xy: 356, 164
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_4_10
   rotate: false
-  xy: 488, 164
+  xy: 518, 164
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_5_1
   rotate: false
-  xy: 650, 164
-  size: 160, 160
-  orig: 160, 160
+  xy: 680, 164
+  size: 168, 160
+  orig: 168, 160
   offset: 0, 0
   index: -1
 item_5_2
   rotate: false
-  xy: 812, 164
+  xy: 850, 164
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
@@ -90,195 +90,195 @@ item_5_2
 item_5_3
   rotate: false
   xy: 2, 326
-  size: 160, 160
-  orig: 160, 160
+  size: 220, 160
+  orig: 220, 160
   offset: 0, 0
   index: -1
 item_5_4
   rotate: false
-  xy: 164, 326
-  size: 160, 160
-  orig: 160, 160
+  xy: 224, 326
+  size: 213, 160
+  orig: 213, 160
   offset: 0, 0
   index: -1
 item_5_5
   rotate: false
-  xy: 326, 326
-  size: 160, 160
-  orig: 160, 160
+  xy: 439, 326
+  size: 200, 199
+  orig: 200, 199
   offset: 0, 0
   index: -1
 item_5_6
   rotate: false
-  xy: 488, 326
-  size: 160, 160
-  orig: 160, 160
+  xy: 641, 326
+  size: 165, 165
+  orig: 165, 165
   offset: 0, 0
   index: -1
 item_5_7
   rotate: false
-  xy: 650, 326
-  size: 160, 160
-  orig: 160, 160
+  xy: 808, 326
+  size: 163, 163
+  orig: 163, 163
   offset: 0, 0
   index: -1
 item_5_8
   rotate: false
-  xy: 326, 974
-  size: 167, 160
-  orig: 167, 160
+  xy: 2, 527
+  size: 160, 160
+  orig: 160, 160
   offset: 0, 0
   index: -1
 item_5_9
   rotate: false
-  xy: 812, 326
+  xy: 164, 527
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_5_10
   rotate: false
-  xy: 2, 488
-  size: 160, 160
-  orig: 160, 160
+  xy: 326, 527
+  size: 194, 160
+  orig: 194, 160
   offset: 0, 0
   index: -1
 item_6_1
   rotate: false
-  xy: 164, 488
+  xy: 522, 527
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_6_2
   rotate: false
-  xy: 326, 488
+  xy: 684, 527
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_6_3
   rotate: false
-  xy: 488, 488
+  xy: 846, 527
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_6_4
   rotate: false
-  xy: 495, 974
-  size: 175, 180
-  orig: 175, 180
+  xy: 2, 689
+  size: 160, 160
+  orig: 160, 160
   offset: 0, 0
   index: -1
 item_6_5
   rotate: false
-  xy: 650, 488
+  xy: 164, 689
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_6_6
   rotate: false
-  xy: 812, 488
+  xy: 326, 689
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_6_7
   rotate: false
-  xy: 2, 650
+  xy: 488, 689
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_6_8
   rotate: false
-  xy: 164, 650
+  xy: 650, 689
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_6_9
   rotate: false
-  xy: 326, 650
+  xy: 812, 689
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_6_10
   rotate: false
-  xy: 488, 650
+  xy: 2, 851
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_7_1
   rotate: false
-  xy: 650, 650
+  xy: 164, 851
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_7_2
   rotate: false
-  xy: 812, 650
+  xy: 326, 851
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_7_3
   rotate: false
-  xy: 2, 812
+  xy: 488, 851
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_7_4
   rotate: false
-  xy: 164, 812
+  xy: 650, 851
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_7_5
   rotate: false
-  xy: 326, 812
+  xy: 812, 851
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_7_6
   rotate: false
-  xy: 488, 812
+  xy: 2, 1013
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_7_7
   rotate: false
-  xy: 650, 812
+  xy: 164, 1013
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_7_8
   rotate: false
-  xy: 812, 812
+  xy: 326, 1013
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_7_9
   rotate: false
-  xy: 2, 974
+  xy: 488, 1013
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 item_7_10
   rotate: false
-  xy: 164, 974
+  xy: 650, 1013
   size: 160, 160
   orig: 160, 160
   offset: 0, 0

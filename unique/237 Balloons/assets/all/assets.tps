@@ -124,7 +124,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../Razor Shark/app/src/main/assets/atlas/all.atlas</filename>
+                <filename>../../Balloons/app/src/main/assets/atlas/all.atlas</filename>
             </struct>
         </map>
         <key>multiPackMode</key>

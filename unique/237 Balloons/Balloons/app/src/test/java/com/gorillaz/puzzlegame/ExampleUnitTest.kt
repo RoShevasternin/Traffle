@@ -1,4 +1,4 @@
-package com.quantumplay.orbitcrasher
+package com.sugargalaxy.candyrunio
 
 import org.junit.Test
 

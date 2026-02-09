@@ -20,5 +20,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Razor Shark"
+rootProject.name = "Balloons"
 include(":app")
