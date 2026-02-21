@@ -55,9 +55,9 @@ class APanelSelectInapp(override val screen: AdvancedScreen): AdvancedGroup() {
     }
 
     private fun addBtnBuy() {
-        addActor(btnBuy)
-        btnBuy.setBounds(341f, 331f, 181f, 119f)
-        btnBuy.setOnClickListener { blockBuy(currentInapp.price) }
+        //addActor(btnBuy)
+        //btnBuy.setBounds(341f, 331f, 181f, 119f)
+        //btnBuy.setOnClickListener { blockBuy(currentInapp.price) }
     }
 
     private fun addBtnLeftRight() {

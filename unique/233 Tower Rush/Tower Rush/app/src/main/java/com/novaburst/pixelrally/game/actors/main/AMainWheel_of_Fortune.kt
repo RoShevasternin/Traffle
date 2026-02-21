@@ -85,8 +85,8 @@ class AMainWheel_of_Fortune(
     }
 
     private fun addImgPanelWatchAdd() {
-        addActor(imgPanelWatchAdd)
-        imgPanelWatchAdd.setBounds(556f, 9f, 466f, 281f)
+        //addActor(imgPanelWatchAdd)
+        //imgPanelWatchAdd.setBounds(556f, 9f, 466f, 281f)
 
         val aBtn = Actor()
         addActor(aBtn)
