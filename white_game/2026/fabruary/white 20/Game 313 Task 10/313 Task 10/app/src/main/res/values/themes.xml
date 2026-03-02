@@ -1,0 +1,7 @@
+<resources>
+    <style name="Base.Theme.OceanBubbleParty" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <style name="Theme.OceanBubbleParty" parent="Base.Theme.OceanBubbleParty" />
+</resources>

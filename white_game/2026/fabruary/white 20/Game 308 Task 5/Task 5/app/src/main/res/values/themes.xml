@@ -1,0 +1,7 @@
+<resources>
+    <style name="Base.Theme.FruitMania" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <style name="Theme.FruitMania" parent="Base.Theme.FruitMania" />
+</resources>

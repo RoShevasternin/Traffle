@@ -1,0 +1,131 @@
+all.png
+size: 893, 1350
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+1
+  rotate: false
+  xy: 108, 1
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 259, 1
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 410, 1
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 561, 1
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+btns
+  rotate: false
+  xy: 353, 715
+  size: 527, 634
+  orig: 527, 634
+  offset: 0, 0
+  index: -1
+md
+  rotate: false
+  xy: 712, 1
+  size: 180, 183
+  orig: 180, 183
+  offset: 0, 0
+  index: -1
+menu_def
+  rotate: false
+  xy: 1, 185
+  size: 180, 183
+  orig: 180, 183
+  offset: 0, 0
+  index: -1
+menu_press
+  rotate: false
+  xy: 182, 185
+  size: 180, 183
+  orig: 180, 183
+  offset: 0, 0
+  index: -1
+mp
+  rotate: false
+  xy: 363, 185
+  size: 180, 183
+  orig: 180, 183
+  offset: 0, 0
+  index: -1
+panel
+  rotate: false
+  xy: 343, 553
+  size: 422, 161
+  orig: 422, 161
+  offset: 0, 0
+  index: -1
+pause
+  rotate: false
+  xy: 544, 185
+  size: 180, 183
+  orig: 180, 183
+  offset: 0, 0
+  index: -1
+platform
+  rotate: false
+  xy: 1, 715
+  size: 351, 202
+  orig: 351, 202
+  offset: 0, 0
+  index: -1
+play
+  rotate: false
+  xy: 1, 369
+  size: 180, 183
+  orig: 180, 183
+  offset: 0, 0
+  index: -1
+sd
+  rotate: false
+  xy: 182, 369
+  size: 180, 183
+  orig: 180, 183
+  offset: 0, 0
+  index: -1
+shar
+  rotate: false
+  xy: 1, 1
+  size: 106, 106
+  orig: 106, 106
+  offset: 0, 0
+  index: -1
+sp
+  rotate: false
+  xy: 363, 369
+  size: 180, 183
+  orig: 180, 183
+  offset: 0, 0
+  index: -1
+start_def
+  rotate: false
+  xy: 544, 369
+  size: 341, 130
+  orig: 341, 130
+  offset: 0, 0
+  index: -1
+start_press
+  rotate: false
+  xy: 1, 553
+  size: 341, 130
+  orig: 341, 130
+  offset: 0, 0
+  index: -1
