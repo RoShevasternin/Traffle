@@ -1,0 +1,96 @@
+all.png
+size: 486, 867
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+air1
+  rotate: false
+  xy: 204, 98
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+air2
+  rotate: false
+  xy: 2, 340
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+air3
+  rotate: false
+  xy: 244, 340
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+air4
+  rotate: false
+  xy: 2, 582
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+air5
+  rotate: false
+  xy: 244, 582
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+heart
+  rotate: false
+  xy: 35, 2
+  size: 55, 55
+  orig: 55, 55
+  offset: 0, 0
+  index: -1
+money1
+  rotate: false
+  xy: 92, 2
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+money2
+  rotate: false
+  xy: 188, 2
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+money3
+  rotate: false
+  xy: 284, 2
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+money4
+  rotate: false
+  xy: 380, 2
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+palet
+  rotate: false
+  xy: 2, 2
+  size: 31, 41
+  orig: 31, 41
+  offset: 0, 0
+  index: -1
+panel
+  rotate: false
+  xy: 2, 824
+  size: 339, 41
+  orig: 339, 41
+  offset: 0, 0
+  index: -1
+shar
+  rotate: false
+  xy: 2, 98
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1

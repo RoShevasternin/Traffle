@@ -1,0 +1,7 @@
+<resources>
+    <style name="Base.Theme.PairtheCircus" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <style name="Theme.PairtheCircus" parent="Base.Theme.PairtheCircus" />
+</resources>
