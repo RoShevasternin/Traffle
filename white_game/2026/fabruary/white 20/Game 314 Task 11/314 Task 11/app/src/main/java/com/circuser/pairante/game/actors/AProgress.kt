@@ -5,6 +5,7 @@ import com.badlogic.gdx.scenes.scene2d.InputListener
 import com.badlogic.gdx.scenes.scene2d.ui.Image
 import com.circuser.pairante.game.utils.WIDTH_UI
 import com.circuser.pairante.game.utils.actor.addAndFillActor
+import com.circuser.pairante.game.utils.actor.setBounds
 import com.circuser.pairante.game.utils.advanced.AdvancedGroup
 import com.circuser.pairante.game.utils.advanced.AdvancedScreen
 import com.circuser.pairante.game.utils.gdxGame
@@ -34,7 +35,7 @@ class AProgress(override val screen: AdvancedScreen): AdvancedGroup() {
             progressPercentFlow.collect { percent ->
                 runGDX {
                     progressImage.x = (percent * onePercentX) - LENGTH
-                    pipImage.x = progressImage.x + LENGTH - 21f
+                    pipImage.x = progressImage.x + LENGTH - 10f
                 }
             }
         }
@@ -47,7 +48,8 @@ class AProgress(override val screen: AdvancedScreen): AdvancedGroup() {
     // ---------------------------------------------------
 
     private fun AdvancedGroup.addMask() {
-        addAndFillActor(mask)
+        addActor(mask)
+        mask.setBounds(11f, 17f, 407f, 25f)
         mask.addProgress()
     }
 
@@ -57,7 +59,7 @@ class AProgress(override val screen: AdvancedScreen): AdvancedGroup() {
 
     private fun AdvancedGroup.addPip() {
         addActor(pipImage)
-        pipImage.y = -9f
+        pipImage.y = 8f
     }
 
     // ---------------------------------------------------

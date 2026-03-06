@@ -1,0 +1,7 @@
+<resources>
+    <style name="Base.Theme.CupcakeJump" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <style name="Theme.CupcakeJump" parent="Base.Theme.CupcakeJump" />
+</resources>

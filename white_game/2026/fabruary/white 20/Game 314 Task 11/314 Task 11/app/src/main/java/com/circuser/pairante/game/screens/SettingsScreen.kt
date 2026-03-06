@@ -67,8 +67,8 @@ class SettingsScreen: AdvancedScreen() {
             addAndFillActor(aSettingsImg)
             addActors(progMusic, progSound)
         }
-        progMusic.setBounds(168f, 454f, 407f, 25f)
-        progSound.setBounds(168f, 237f, 407f, 25f)
+        progMusic.setBounds(157f, 437f, 430f, 54f)
+        progSound.setBounds(157f, 220f, 430f, 54f)
 
         progMusic.progressPercentFlow.value = gdxGame.musicUtil.volumeLevelFlow.value
         progSound.progressPercentFlow.value = gdxGame.soundUtil.volumeLevel
