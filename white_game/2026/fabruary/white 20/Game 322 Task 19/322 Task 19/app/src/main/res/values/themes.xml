@@ -1,0 +1,7 @@
+<resources>
+    <style name="Base.Theme.CoralAdventure" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <style name="Theme.CoralAdventure" parent="Base.Theme.CoralAdventure" />
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <style name="Base.Theme.CandyBounce" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <style name="Theme.CandyBounce" parent="Base.Theme.CandyBounce" />
+</resources>
