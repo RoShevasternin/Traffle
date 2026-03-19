@@ -1,0 +1,40 @@
+all.png
+size: 901, 429
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+double
+  rotate: false
+  xy: 598, 2
+  size: 269, 380
+  orig: 269, 380
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 2, 2
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+title
+  rotate: false
+  xy: 2, 384
+  size: 897, 43
+  orig: 897, 43
+  offset: 0, 0
+  index: -1
+vikl
+  rotate: false
+  xy: 164, 2
+  size: 215, 75
+  orig: 215, 75
+  offset: 0, 0
+  index: -1
+vkl
+  rotate: false
+  xy: 381, 2
+  size: 215, 75
+  orig: 215, 75
+  offset: 0, 0
+  index: -1

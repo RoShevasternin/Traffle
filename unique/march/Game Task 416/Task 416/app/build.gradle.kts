@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.vortemika208.lavrix"
+    namespace = "com.vortemika208.w1n"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.vortemika208.lavrix"
+        applicationId = "com.vortemika208.w1n"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

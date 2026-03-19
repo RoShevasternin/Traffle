@@ -1,0 +1,47 @@
+menu.png
+size: 1481, 300
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coins
+  rotate: false
+  xy: 1, 1
+  size: 120, 82
+  orig: 120, 82
+  offset: 0, 0
+  index: -1
+icon-1
+  rotate: false
+  xy: 122, 1
+  size: 298, 298
+  orig: 298, 298
+  offset: 0, 0
+  index: -1
+icon-2
+  rotate: false
+  xy: 421, 1
+  size: 298, 298
+  orig: 298, 298
+  offset: 0, 0
+  index: -1
+icon-3
+  rotate: false
+  xy: 720, 1
+  size: 298, 298
+  orig: 298, 298
+  offset: 0, 0
+  index: -1
+mask
+  rotate: false
+  xy: 1019, 1
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+photo
+  rotate: false
+  xy: 1250, 1
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1

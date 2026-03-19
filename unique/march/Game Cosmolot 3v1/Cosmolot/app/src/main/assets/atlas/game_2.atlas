@@ -1,0 +1,152 @@
+game_2.png
+size: 482, 484
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 117, 1
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 233, 1
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 349, 1
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 1, 117
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 117, 117
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 233, 117
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 349, 117
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 1, 233
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+auto_def
+  rotate: false
+  xy: 352, 233
+  size: 129, 38
+  orig: 129, 38
+  offset: 0, 0
+  index: -1
+auto_dis
+  rotate: false
+  xy: 1, 349
+  size: 129, 38
+  orig: 129, 38
+  offset: 0, 0
+  index: -1
+auto_press
+  rotate: false
+  xy: 131, 349
+  size: 129, 38
+  orig: 129, 38
+  offset: 0, 0
+  index: -1
+bet_check
+  rotate: false
+  xy: 131, 388
+  size: 130, 38
+  orig: 130, 38
+  offset: 0, 0
+  index: -1
+bet_def
+  rotate: false
+  xy: 262, 388
+  size: 130, 38
+  orig: 130, 38
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 233, 233
+  size: 118, 109
+  orig: 118, 109
+  offset: 0, 0
+  index: -1
+menu_def
+  rotate: false
+  xy: 1, 1
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+menu_press
+  rotate: false
+  xy: 59, 1
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+music_no
+  rotate: false
+  xy: 261, 349
+  size: 129, 38
+  orig: 129, 38
+  offset: 0, 0
+  index: -1
+music_yes
+  rotate: false
+  xy: 1, 388
+  size: 129, 38
+  orig: 129, 38
+  offset: 0, 0
+  index: -1
+spin_def
+  rotate: false
+  xy: 1, 427
+  size: 197, 56
+  orig: 197, 56
+  offset: 0, 0
+  index: -1
+spin_press
+  rotate: false
+  xy: 199, 427
+  size: 197, 56
+  orig: 197, 56
+  offset: 0, 0
+  index: -1
+wild
+  rotate: false
+  xy: 117, 233
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
