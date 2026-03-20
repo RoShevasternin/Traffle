@@ -4,7 +4,7 @@
         <key>fileFormatVersion</key>
         <int>6</int>
         <key>texturePackerVersion</key>
-        <string>7.1.0</string>
+        <string>7.12.0</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -124,7 +124,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../../Slots city/app/src/main/assets/atlas/Сarnival Сat/all.atlas</filename>
+                <filename>../../../Task 418/app/src/main/assets/atlas/Сarnival Сat/all.atlas</filename>
             </struct>
         </map>
         <key>multiPackMode</key>
@@ -190,6 +190,24 @@
                 <rect>39,39,77,78</rect>
                 <key>scale9Paddings</key>
                 <rect>39,39,77,78</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">cat_minus_def.png</key>
+            <key type="filename">cat_minus_press.png</key>
+            <key type="filename">cat_plus_def.png</key>
+            <key type="filename">cat_plus_press.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>24,24,47,47</rect>
+                <key>scale9Paddings</key>
+                <rect>24,24,47,47</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -270,6 +288,12 @@
         <key>normalMapSheetFileName</key>
         <filename></filename>
         <key>exporterProperties</key>
-        <map type="ExporterProperties"/>
+        <map type="ExporterProperties">
+            <key>libgdx::legacy-output</key>
+            <struct type="ExporterProperty">
+                <key>value</key>
+                <string>true</string>
+            </struct>
+        </map>
     </struct>
 </data>

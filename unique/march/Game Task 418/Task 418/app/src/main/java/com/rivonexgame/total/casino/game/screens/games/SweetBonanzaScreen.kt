@@ -2,6 +2,7 @@ package com.rivonexgame.total.casino.game.screens.games
 
 import com.badlogic.gdx.scenes.scene2d.ui.Image
 import com.rivonexgame.total.casino.game.LibGDXGame
+import com.rivonexgame.total.casino.game.actors.ABottomPanel
 import com.rivonexgame.total.casino.game.actors.ABottomPanel_SweetBonanza
 import com.rivonexgame.total.casino.game.actors.button.AButton
 import com.rivonexgame.total.casino.game.actors.checkbox.ACheckBox
@@ -25,7 +26,8 @@ class SweetBonanzaScreen(override val game: LibGDXGame): AdvancedScreen() {
     private val doubleCBox  = ACheckBox(this, ACheckBox.Static.SweetBonanzaType.ON_OFF)
     private val textImg     = Image(assetsBonanza.title)
     private val panelImg    = Image(assetsBonanza.SLOT_GROUP)
-    private val bottomPanel = ABottomPanel_SweetBonanza(this)
+    //private val bottomPanel = ABottomPanel_SweetBonanza(this)
+    private val bottomPanel = ABottomPanel(this)
 
     override fun show() {
         stageBack.root.animHide()
@@ -76,14 +78,21 @@ class SweetBonanzaScreen(override val game: LibGDXGame): AdvancedScreen() {
 
     private fun AdvancedStage.addDouble() {
         addActors(doubleImg, doubleCBox)
-        doubleImg.setBounds(49f, 350f, 269f, 380f)
-        doubleCBox.setBounds(72f, 363f, 215f, 75f)
+        doubleImg.setBounds(49f, 415f, 273f, 315f)
+        doubleCBox.setBounds(128f, 456f, 105f, 37f)
     }
 
     private fun AdvancedStage.addTextImg() {
         addActor(textImg)
         textImg.setBounds(627f, 1022f, 897f, 43f)
     }
+
+//    private fun AdvancedStage.addBottomPanel() {
+//        addActor(bottomPanel)
+//        bottomPanel.setBounds(0f, 0f, 1920f, 129f)
+//
+//        bottomPanel.spinBlock = { slotGroup.spin() }
+//    }
 
     private fun AdvancedStage.addBottomPanel() {
         addActor(bottomPanel)

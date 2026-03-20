@@ -13,6 +13,7 @@ import com.rivonexgame.total.casino.game.utils.actor.animHide
 import com.rivonexgame.total.casino.game.utils.actor.animShow
 import com.rivonexgame.total.casino.game.utils.actor.disable
 import com.rivonexgame.total.casino.game.utils.actor.enable
+import com.rivonexgame.total.casino.game.utils.actor.setBounds
 import com.rivonexgame.total.casino.game.utils.actor.setOnClickListener
 import com.rivonexgame.total.casino.game.utils.advanced.AdvancedScreen
 import com.rivonexgame.total.casino.game.utils.advanced.AdvancedStage
@@ -36,6 +37,8 @@ class TreasureSnipesScreen(override val game: LibGDXGame): AdvancedScreen() {
     private val stakeFlow = MutableStateFlow(STAKE_MIN)
 
     // Actor
+    private val SLOTS_FORM_Img = Image(assets.SLOTS_FORM)
+
     private val panelImg    = Image(assets.PANEL)
     private val balanceLbl  = Label("" + game.balance.balanceFlow.value, Label.LabelStyle(font16, GameColor.gray))
     private val stakeLbl    = Label("" + stakeFlow.value, Label.LabelStyle(font16, GameColor.gray))
@@ -61,6 +64,9 @@ class TreasureSnipesScreen(override val game: LibGDXGame): AdvancedScreen() {
     }
 
     override fun AdvancedStage.addActorsOnStageUI() {
+        addActor(SLOTS_FORM_Img)
+        SLOTS_FORM_Img.setBounds(129f, 0f, 1735f, 993f)
+
         addPanelImg()
         addBack()
         addBalanceAndStake()
@@ -75,14 +81,14 @@ class TreasureSnipesScreen(override val game: LibGDXGame): AdvancedScreen() {
 
     private fun AdvancedStage.addPanelImg() {
         addActor(panelImg)
-        panelImg.setBounds(71f, 30f, 1351f, 70f)
+        panelImg.setBounds(34f, 16f, 1399f, 133f)
     }
 
     private fun AdvancedStage.addBack() {
         val back = Actor()
         addActor(back)
         back.apply {
-            setBounds(30f, 0f, 152f, 131f)
+            setBounds(34f, 31f, 95f, 95f)
             setOnClickListener(game.soundUtil) { stageUI.root.animHide(TIME_ANIM_ALPHA) {
                 stageBack.root.animHide(TIME_ANIM_ALPHA) { game.navigationManager.back() }
             } }
@@ -91,8 +97,8 @@ class TreasureSnipesScreen(override val game: LibGDXGame): AdvancedScreen() {
 
     private fun AdvancedStage.addBalanceAndStake() {
         addActors(balanceLbl, stakeLbl)
-        balanceLbl.setBounds(1194f, 37f, 208f, 19f)
-        stakeLbl.setBounds(557f, 40f, 115f, 19f)
+        balanceLbl.setBounds(1205f, 53f, 208f, 19f)
+        stakeLbl.setBounds(568f, 56f, 115f, 19f)
         balanceLbl.setAlignment(Align.center)
         stakeLbl.setAlignment(Align.center)
 
@@ -111,13 +117,13 @@ class TreasureSnipesScreen(override val game: LibGDXGame): AdvancedScreen() {
     private fun AdvancedStage.addMinusPlusBtn() {
         addActors(minusBtn, plusBtn)
         minusBtn.apply {
-            setBounds(490f, 24f, 60f, 50f)
+            setBounds(483f, 30f, 69f, 69f)
             setOnClickListener(game.soundUtil) {
                 if (stakeFlow.value - STAKE_STEP >= STAKE_MIN) stakeFlow.value -= STAKE_STEP
             }
         }
         plusBtn.apply {
-            setBounds(679f, 24f, 60f, 50f)
+            setBounds(683f, 30f, 69f, 69f)
             setOnClickListener(game.soundUtil) {
                 if (stakeFlow.value + STAKE_STEP <= STAKE_MAX) stakeFlow.value += STAKE_STEP
             }
@@ -127,7 +133,7 @@ class TreasureSnipesScreen(override val game: LibGDXGame): AdvancedScreen() {
     private fun AdvancedStage.addSpinBtn() {
         addActor(spinBtn)
         spinBtn.apply {
-            setBounds(887f, 0f, 146f, 133f)
+            setBounds(898f, 16f, 146f, 133f)
 
             setOnClickListener(game.soundUtil.start) {
                 game.balance.balanceFlow.value -= stakeFlow.value

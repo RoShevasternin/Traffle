@@ -1,40 +1,40 @@
 all.png
-size: 901, 429
+size: 901, 364
 format: RGBA8888
-filter: Linear,Linear
+filter: Linear, Linear
 repeat: none
 double
   rotate: false
-  xy: 598, 2
-  size: 269, 380
-  orig: 269, 380
+  xy: 378, 2
+  size: 273, 315
+  orig: 273, 315
   offset: 0, 0
   index: -1
 glow
   rotate: false
-  xy: 2, 2
+  xy: 216, 2
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 title
   rotate: false
-  xy: 2, 384
+  xy: 2, 319
   size: 897, 43
   orig: 897, 43
   offset: 0, 0
   index: -1
 vikl
   rotate: false
-  xy: 164, 2
-  size: 215, 75
-  orig: 215, 75
+  xy: 2, 2
+  size: 105, 37
+  orig: 105, 37
   offset: 0, 0
   index: -1
 vkl
   rotate: false
-  xy: 381, 2
-  size: 215, 75
-  orig: 215, 75
+  xy: 109, 2
+  size: 105, 37
+  orig: 105, 37
   offset: 0, 0
   index: -1

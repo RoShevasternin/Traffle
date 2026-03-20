@@ -1,7 +1,7 @@
 all.png
 size: 220, 490
 format: RGBA8888
-filter: Linear,Linear
+filter: Linear, Linear
 repeat: none
 glow
   rotate: false

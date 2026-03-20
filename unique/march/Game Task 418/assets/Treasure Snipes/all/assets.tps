@@ -4,7 +4,7 @@
         <key>fileFormatVersion</key>
         <int>6</int>
         <key>texturePackerVersion</key>
-        <string>7.1.0</string>
+        <string>7.12.0</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -124,7 +124,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../../Slots city/app/src/main/assets/atlas/Treasure Snipes/all.atlas</filename>
+                <filename>../../../Task 418/app/src/main/assets/atlas/Treasure Snipes/all.atlas</filename>
             </struct>
         </map>
         <key>multiPackMode</key>
@@ -250,6 +250,12 @@
         <key>normalMapSheetFileName</key>
         <filename></filename>
         <key>exporterProperties</key>
-        <map type="ExporterProperties"/>
+        <map type="ExporterProperties">
+            <key>libgdx::legacy-output</key>
+            <struct type="ExporterProperty">
+                <key>value</key>
+                <string>true</string>
+            </struct>
+        </map>
     </struct>
 </data>

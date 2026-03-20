@@ -16,7 +16,7 @@ class Glow(override val screen: AdvancedScreen): AdvancedGroup() {
         const val GLOW_ITEM_COUNT = 3
     }
 
-    private val glowItemImageList = List(GLOW_ITEM_COUNT) { Image(screen.game.carnavalCatAssets.glow) }
+    private val glowItemImageList = List(GLOW_ITEM_COUNT) { Image(screen.game.treasureSnipesAssets.glow) }
 
     var listIndexWin: List<Int>? = null
 

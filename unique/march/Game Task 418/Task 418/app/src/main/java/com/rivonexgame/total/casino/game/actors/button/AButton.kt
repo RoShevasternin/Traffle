@@ -183,6 +183,17 @@ open class AButton(
             pressed  = spriteUtil_CarnavalCat.autospin_press,
             disabled = spriteUtil_CarnavalCat.autospin_dis,
         )
+        Static.CarnavalCatType.PLUS -> Static.AButtonStyle(
+            default  = spriteUtil_CarnavalCat.cat_plus_def,
+            pressed  = spriteUtil_CarnavalCat.cat_plus_press,
+            disabled = spriteUtil_CarnavalCat.cat_plus_press,
+        )
+        Static.CarnavalCatType.MINUS -> Static.AButtonStyle(
+            default  = spriteUtil_CarnavalCat.cat_minus_def,
+            pressed  = spriteUtil_CarnavalCat.cat_minus_press,
+            disabled = spriteUtil_CarnavalCat.cat_minus_press,
+        )
+
         Static.TreasureSnipesType.SPIN -> Static.AButtonStyle(
             default  = spriteUtil_TreasureSnipes.spin_def,
             pressed  = spriteUtil_TreasureSnipes.spin_dis,
@@ -214,7 +225,7 @@ open class AButton(
         }
 
         enum class CarnavalCatType : IType {
-            SPIN, AUTO_SPIN
+            SPIN, AUTO_SPIN, PLUS, MINUS
         }
 
         enum class TreasureSnipesType : IType {

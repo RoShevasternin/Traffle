@@ -100,6 +100,7 @@ class SpriteManager(var assetManager: AssetManager) {
         BACKGROUND(TextureData("textures/Treasure Snipes/background.png")),
         SLOT_MASK (TextureData("textures/Treasure Snipes/slot_mask.png")),
         PANEL     (TextureData("textures/Treasure Snipes/panel.png")),
+        SLOTS_FORM(TextureData("textures/Treasure Snipes/slots_form.png")),
     }
 
     enum class SweetBonanzaAtlas(val data: AtlasData) {

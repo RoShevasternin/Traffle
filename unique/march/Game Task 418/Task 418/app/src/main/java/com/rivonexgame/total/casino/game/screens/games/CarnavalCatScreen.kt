@@ -39,8 +39,8 @@ class CarnavalCatScreen(override val game: LibGDXGame): AdvancedScreen() {
     private val btnBack     = AButton(this, AButton.Static.Type.BACK)
     private val balanceLbl  = Label("" + game.balance.balanceFlow.value, Label.LabelStyle(font50, Color.WHITE))
     private val stakeLbl    = Label("" + stakeFlow.value, Label.LabelStyle(font50, Color.WHITE))
-    private val minusBtn    = AButton(this, AButton.Static.Type.MINUS)
-    private val plusBtn     = AButton(this, AButton.Static.Type.PLUS)
+    private val minusBtn    = AButton(this, AButton.Static.CarnavalCatType.MINUS)
+    private val plusBtn     = AButton(this, AButton.Static.CarnavalCatType.PLUS)
     private val spinBtn     = AButton(this, AButton.Static.CarnavalCatType.SPIN)
     private val autoSpinBtn = AButton(this, AButton.Static.CarnavalCatType.AUTO_SPIN)
     private val speedBtn    = ACheckBox(this, ACheckBox.Static.CarnavalCatType.SPEED)
@@ -130,7 +130,7 @@ class CarnavalCatScreen(override val game: LibGDXGame): AdvancedScreen() {
     private fun AdvancedStage.addSpinBtn() {
         addActor(spinBtn)
         spinBtn.apply {
-            setBounds(1649f, 465f, 256f, 259f)
+            setBounds(1656f, 453f, 217f, 189f)
 
             setOnClickListener(game.soundUtil.start) {
                 game.balance.balanceFlow.value -= stakeFlow.value
@@ -150,7 +150,7 @@ class CarnavalCatScreen(override val game: LibGDXGame): AdvancedScreen() {
     private fun AdvancedStage.addAutoSpinBtn() {
         addActor(autoSpinBtn)
         autoSpinBtn.apply {
-            setBounds(1701f, 764f, 155f, 156f)
+            setBounds(1702f, 663f, 124f, 120f)
 
             val autoClickableList = clickableList.toMutableList().apply { remove(autoSpinBtn) }
 
@@ -192,7 +192,7 @@ class CarnavalCatScreen(override val game: LibGDXGame): AdvancedScreen() {
     private fun AdvancedStage.addSpeedBtn() {
         addActor(speedBtn)
         speedBtn.apply {
-            setBounds(1694f, 269f, 155f, 156f)
+            setBounds(1711f, 296f, 108f, 109f)
 
             setOnCheckListener { isCheck -> SlotGroup.isSpeed = isCheck }
         }

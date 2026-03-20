@@ -104,6 +104,10 @@ class SpriteUtil {
           val spin_def       = getRegionAll("spin_def")
           val spin_dis       = getRegionAll("spin_dis")
           val glow           = getRegionAll("glow")
+          val cat_plus_def   = getRegionAll("cat_plus_def")
+         val cat_plus_press  = getRegionAll("cat_plus_press")
+         val cat_minus_def   = getRegionAll("cat_minus_def")
+         val cat_minus_press = getRegionAll("cat_minus_press")
 
           val wild     = getRegionItems("wild")
           val listItem = mutableListOf<TextureRegion>().apply {
@@ -128,6 +132,7 @@ class SpriteUtil {
           val BACKGROUND = SpriteManager.TreasureSnipesTexture.BACKGROUND.data.texture
           val SLOT_MASK  = SpriteManager.TreasureSnipesTexture.SLOT_MASK.data.texture
           val PANEL      = SpriteManager.TreasureSnipesTexture.PANEL.data.texture
+          val SLOTS_FORM = SpriteManager.TreasureSnipesTexture.SLOTS_FORM.data.texture
      }
 
      class SweetBonanzaAssets {

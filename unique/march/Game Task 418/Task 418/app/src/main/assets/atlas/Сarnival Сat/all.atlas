@@ -1,68 +1,96 @@
 all.png
-size: 911, 421
+size: 254, 1161
 format: RGBA8888
-filter: Linear,Linear
+filter: Linear, Linear
 repeat: none
 autospin_def
   rotate: false
-  xy: 2, 2
-  size: 155, 156
-  orig: 155, 156
+  xy: 112, 305
+  size: 124, 120
+  orig: 124, 120
   offset: 0, 0
   index: -1
 autospin_dis
   rotate: false
-  xy: 159, 2
-  size: 155, 156
-  orig: 155, 156
+  xy: 2, 427
+  size: 124, 120
+  orig: 124, 120
   offset: 0, 0
   index: -1
 autospin_press
   rotate: false
-  xy: 316, 2
-  size: 155, 156
-  orig: 155, 156
+  xy: 128, 427
+  size: 124, 120
+  orig: 124, 120
+  offset: 0, 0
+  index: -1
+cat_minus_def
+  rotate: false
+  xy: 2, 2
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+cat_minus_press
+  rotate: false
+  xy: 98, 2
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+cat_plus_def
+  rotate: false
+  xy: 2, 98
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+cat_plus_press
+  rotate: false
+  xy: 98, 98
+  size: 94, 94
+  orig: 94, 94
   offset: 0, 0
   index: -1
 glow
   rotate: false
-  xy: 159, 160
+  xy: 2, 931
   size: 234, 228
   orig: 234, 228
   offset: 0, 0
   index: -1
 speed_def
   rotate: false
-  xy: 473, 2
-  size: 155, 156
-  orig: 155, 156
+  xy: 2, 194
+  size: 108, 109
+  orig: 108, 109
   offset: 0, 0
   index: -1
 speed_dis
   rotate: false
-  xy: 630, 2
-  size: 155, 156
-  orig: 155, 156
+  xy: 112, 194
+  size: 108, 109
+  orig: 108, 109
   offset: 0, 0
   index: -1
 speed_press
   rotate: false
-  xy: 2, 160
-  size: 155, 156
-  orig: 155, 156
+  xy: 2, 305
+  size: 108, 109
+  orig: 108, 109
   offset: 0, 0
   index: -1
 spin_def
   rotate: false
-  xy: 395, 160
-  size: 256, 259
-  orig: 256, 259
+  xy: 2, 549
+  size: 217, 189
+  orig: 217, 189
   offset: 0, 0
   index: -1
 spin_dis
   rotate: false
-  xy: 653, 160
-  size: 256, 259
-  orig: 256, 259
+  xy: 2, 740
+  size: 217, 189
+  orig: 217, 189
   offset: 0, 0
   index: -1
