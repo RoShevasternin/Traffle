@@ -8,6 +8,10 @@ import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import com.badlogic.gdx.backends.android.AndroidFragmentApplication
+import com.google.android.gms.ads.AdSize
+import com.google.android.gms.ads.MobileAds
+import com.google.android.gms.ads.admanager.AdManagerAdRequest
+import com.google.android.gms.ads.admanager.AdManagerAdView
 import com.vortemika208.w1n.databinding.ActivityMainBinding
 import com.vortemika208.w1n.util.OneTime
 import com.vortemika208.w1n.util.log
@@ -67,6 +71,32 @@ class MainActivity : AppCompatActivity(), AndroidFragmentApplication.Callbacks {
     private fun initialize() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        coroutine.launch(Dispatchers.IO) {
+            MobileAds.initialize(this@MainActivity) {
+                val adView = addBanner()
+
+                runOnUiThread {
+                    val adRequest = AdManagerAdRequest.Builder().build()
+                    adView.loadAd(adRequest)
+                }
+            }
+        }
+    }
+
+
+    private fun addBanner(): AdManagerAdView {
+        // Create a new ad view.
+        val adView = AdManagerAdView(this)
+        adView.adUnitId = "ca-app-pub-6701265810426944/2816461175"
+        // Request a large anchored adaptive banner with a width of 360.
+        adView.setAdSize(AdSize.getLargeAnchoredAdaptiveBannerAdSize(this, 360))
+
+        // Replace ad container with new ad view.
+        binding.adViewContainer.removeAllViews()
+        binding.adViewContainer.addView(adView)
+
+        return adView
     }
 
 }

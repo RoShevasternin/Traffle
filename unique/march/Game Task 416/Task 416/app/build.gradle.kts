@@ -79,6 +79,8 @@ dependencies {
     implementation("space.earlygrey:shapedrawer:2.6.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.10.0")
+
+    implementation("com.google.android.gms:play-services-ads:25.1.0")
 }
 
 tasks.register("copyAndroidNatives") {

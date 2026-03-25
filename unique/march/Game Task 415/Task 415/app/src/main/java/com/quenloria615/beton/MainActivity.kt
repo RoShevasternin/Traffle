@@ -8,6 +8,11 @@ import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import com.badlogic.gdx.backends.android.AndroidFragmentApplication
+import com.google.android.gms.ads.AdSize
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
+import com.google.android.gms.ads.admanager.AdManagerAdRequest
+import com.google.android.gms.ads.admanager.AdManagerAdView
 import com.quenloria615.beton.databinding.ActivityMainBinding
 import com.quenloria615.beton.util.OneTime
 import com.quenloria615.beton.util.log
@@ -15,6 +20,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity(), AndroidFragmentApplication.Callbacks {
@@ -32,6 +38,7 @@ class MainActivity : AppCompatActivity(), AndroidFragmentApplication.Callbacks {
     val coroutine = CoroutineScope(Dispatchers.Main)
 
     val windowInsetsController by lazy { WindowCompat.getInsetsController(window, window.decorView) }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         enableEdgeToEdge()
@@ -67,6 +74,31 @@ class MainActivity : AppCompatActivity(), AndroidFragmentApplication.Callbacks {
     private fun initialize() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        coroutine.launch(Dispatchers.IO) {
+            MobileAds.initialize(this@MainActivity) {
+                val adView = addBanner()
+
+                runOnUiThread {
+                    val adRequest = AdManagerAdRequest.Builder().build()
+                    adView.loadAd(adRequest)
+                }
+            }
+        }
+    }
+
+    private fun addBanner(): AdManagerAdView {
+        // Create a new ad view.
+        val adView = AdManagerAdView(this)
+        adView.adUnitId = "ca-app-pub-9962137891219900/3175553825"
+        // Request a large anchored adaptive banner with a width of 360.
+        adView.setAdSize(AdSize.getLargeAnchoredAdaptiveBannerAdSize(this, 360))
+
+        // Replace ad container with new ad view.
+        binding.adViewContainer.removeAllViews()
+        binding.adViewContainer.addView(adView)
+
+        return adView
     }
 
 }

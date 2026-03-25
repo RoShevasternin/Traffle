@@ -1,0 +1,7 @@
+<resources>
+    <style name="Base.Theme.GAME_THEME" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <style name="Theme.GAME_THEME" parent="Base.Theme.GAME_THEME"/>
+</resources>

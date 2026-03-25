@@ -33,6 +33,10 @@
                 android:screenOrientation="landscape"
                 tools:ignore="DiscouragedApi,LockedOrientationActivity">
         </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6701265810426944~4129542849"/>
     </application>
 
 </manifest>
