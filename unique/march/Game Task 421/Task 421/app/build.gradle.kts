@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.bramlix.bbb.casino"
+    namespace = "com.bramlix.cas888.casino"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.bramlix.bbb.casino"
+        applicationId = "com.bramlix.cas888.casino"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

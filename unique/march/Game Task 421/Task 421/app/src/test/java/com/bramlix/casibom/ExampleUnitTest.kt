@@ -1,4 +1,4 @@
-package com.bramlix.bbb.casino
+package com.bramlix.cas888.casino
 
 import org.junit.Test
 
